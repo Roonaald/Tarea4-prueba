@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/nysl_logo.png">
+    <link rel="stylesheet" href="css/registform.css">
+    <title>Registration Form</title>
+</head>
+<body>
+
+<div class="background">
+    
+    <form class="formulario" action="home.html" method="POST">
+
+    <div class="pforma">
+        <section class="titulo"><h1><b> Registration Form </b></h1></section>
+        <div> 
+            <h3><b>Personal Information</b></h3>   
+            <label for="fname">Player’s First Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Name">
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Last Name">
+        </div>
+        <div>
+            <label for="stadd">Street Address:</label>
+            <input type="text" name="stadd" id="stadd" placeholder="Address">
+        </div>
+        <div>
+            <label for="city">City:</label>
+            <input type="text" name="city" id="city" placeholder="City">
+            <label for="zcode">Zip Code:</label>
+            <input type="text" name="zcode" id="zcode" placeholder="8500000">            
+        </div>
+        <div>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+            <label class="checkbox-inline">Gender</label>
+            <input type="checkbox" value="">Male
+            <label class="checkbox-inline">
+            <input type="checkbox" value="">Female 
+        </div>
+        <div>
+            <label for="grade">Grade:</label>
+            <input type="checkbox" name="grade" id="ps"> Pre School
+            <input type="checkbox" name="grade" id="1"><sup>1st</sup>
+            <input type="checkbox" name="grade" id="2"><sup>2nd</sup>
+            <input type="checkbox" name="grade" id="3"><sup>3rd</sup>
+            <input type="checkbox" name="grade" id="4"><sup>4th</sup>
+            <input type="checkbox" name="grade" id="5"><sup>5th</sup>
+            <hr>             
+        </div>
+        <div>
+            <h3><b>Which elementary school do you live near?</b></h3>
+            <label for="item 1"><b>Closest School:</b></label> <br>
+            <input type="checkbox" name="ajk" id="1.1">AJ Katzenmaier
+            <input type="checkbox" name="mpj" id="2.1">Marjorie P Hart <br>
+            <input type="checkbox" name="grn" id="3.1">Greenbay
+            <input type="checkbox" name="nth" id="4.1">North Elementary <br>
+            <input type="checkbox" name="hwy" id="5.1">Howard A Yeager
+            <input type="checkbox" name="ste" id="6.1">South Elementary
+            <hr>
+        </div>
+        <div>
+            <h3><b>What position(s) do you normally play? (check all that apply)</b></h3>
+            <label for="item 2"></label>
+            <input type="checkbox" name="fwd" id="1.2">Forward
+            <input type="checkbox" name="mid" id="2.2">Midfield <br>
+            <input type="checkbox" name="def" id="3.2">Defense
+            <input type="checkbox" name="glk" id="4.2">Goalkeeper
+            <hr>
+        </div>
+
+        <div>
+            <h3><b>Uniform Size:</b></h3>
+            <label for="item"3></label>
+            <input type="checkbox" name="yts" id="1.3">Youth Small
+            <input type="checkbox" name="med" id="2.3">Medium <br>
+            <input type="checkbox" name="ytm" id="3.3">Youth Medium
+            <input type="checkbox" name="lrg" id="4.3">Large <br>
+            <input type="checkbox" name="ytl" id="5.3">Youth Large
+            <input type="checkbox" name="exl" id="6.3">Extra-Large <br>
+            <input type="checkbox" name="sml" id="7.3">Small
+            <hr> 
+        </div>
+
+        <div class="ptp">
+            <h3><b>Permission to Play</b></h3>
+            <p>
+            I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of
+            the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with
+            soccer and in consideration for the “League” accepting the registrant for its soccer programs and activities,
+            I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel
+            and volunteers,including the facilities used for practices and games, against any claim by or on behalf of 
+            the registrant as a result of the registrant’s participation in the programand/orbeing transported to or from 
+            NYSL sponsored activities,which transportation
+            By signing below, I herebyagree andauthorizethe above.In addition, by signing below, I also acknowledge
+            that I have read the cancellation policy and agree to its terms.
+                </p>
+        </div>
+
+        <div>
+            <label for="pgs" >Parent/GuardianSignature:</label>
+            <input type="text" name="pgs" id="firm" placeholder="Your name here">
+            <label for="datefirm">Date</label>
+            <input type="date" name="datefirm" id="datefirm">
+        </div>
+
+        <div >
+            <br>
+            <br>
+            <input class="buttons" type="submit" value="Submit">
+            <input class="buttons" type="reset" value="Reset Form">
+        </div>
+
+    </div>
+
+</div>      
+
+
+    </form>
+
+    <div>
+        <a class="button" href="home.html">Back to Home</a>
+
+
+    </div>
+
+
+    <footer>  
+        <strong><i>Developed By Ronald Astorga</i></strong>  
+    </footer> 
+</body>
+</html>
